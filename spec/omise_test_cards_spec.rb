@@ -14,7 +14,6 @@ RSpec.describe OmiseTestCards do
   end
 
   it "has a successful charge test card brand Visa and number 4242424242424242" do
-    p OmiseTestCards.test_cards.successful_charge.cards
     card = OmiseTestCards.test_cards.successful_charge.cards.first
     expect(card.brand).to eq("Visa")
     expect(card.number).to eq("4242424242424242")
