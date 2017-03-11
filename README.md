@@ -43,7 +43,7 @@ See how to refer successful charge test cards below.
 cards = OmiseTestCards.test_cards
 
 cards.successful_charge.code
-# => successful_charge
+# => "successful_charge"
 
 cards.successful_charge.description
 # => "these credit card numbers can be used in test mode"
@@ -52,10 +52,10 @@ cards.successful_charge.cards
 # => <Hashie::Array [#<Hashie::Mash brand="Visa" number="4242424242424242">, #<Hashie::Mash brand="Visa" number="4111111111111111">, #<Hashie::Mash brand="MasterCard" number="5555555555554444">, #<Hashie::Mash brand="MasterCard" number="5454545454545454">, #<Hashie::Mash brand="JCB" number="3530111333300000">, #<Hashie::Mash brand="JCB" number="3566111111111113">]>
 
 cards.successful_charge.cards.first.brand
-# => Visa
+# => "Visa"
 
 cards.successful_charge.cards.first.number
-# => 4242424242424242
+# => "4242424242424242"
 ```
 
 ## Quick Start
