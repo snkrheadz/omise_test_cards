@@ -1,4 +1,3 @@
-#! ruby -I ./
 require "hashie"
 require "omise_test_cards/version"
 require "omise_test_cards/cards"
