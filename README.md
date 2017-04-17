@@ -69,7 +69,7 @@ require "omise_test_cards"
 Omise.api_key = "SET_YOUR_TEST_SECRET_KEY"
 Omise.vault_key = "SET_YOUR_TEST_PUBLIC_KEY"
 
-# get sampla card
+# get a sample card
 sampel_card = OmiseTestCards.test_cards.successful_charge.cards.first
 
 begin
